@@ -602,7 +602,7 @@
       <string>8</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBoxMuti_11">
+    <widget class="QCheckBox" name="checkBoxMuti_4">
      <property name="geometry">
       <rect>
        <x>9</x>
@@ -654,7 +654,7 @@
       <string>10</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBoxMuti_12">
+    <widget class="QCheckBox" name="checkBoxMuti_7">
      <property name="geometry">
       <rect>
        <x>9</x>
@@ -667,7 +667,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBoxMuti_13">
+    <widget class="QCheckBox" name="checkBoxMuti_8">
      <property name="geometry">
       <rect>
        <x>9</x>
@@ -693,7 +693,7 @@
       <string>4</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBoxMuti_14">
+    <widget class="QCheckBox" name="checkBoxMuti_6">
      <property name="geometry">
       <rect>
        <x>9</x>
@@ -706,7 +706,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBoxMuti_15">
+    <widget class="QCheckBox" name="checkBoxMuti_2">
      <property name="geometry">
       <rect>
        <x>9</x>
@@ -758,7 +758,7 @@
       <string>9</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBoxMuti_16">
+    <widget class="QCheckBox" name="checkBoxMuti_9">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -823,7 +823,7 @@
       <string>6</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBoxMuti_17">
+    <widget class="QCheckBox" name="checkBoxMuti_1">
      <property name="geometry">
       <rect>
        <x>9</x>
@@ -875,7 +875,7 @@
       <string>7</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBoxMuti_18">
+    <widget class="QCheckBox" name="checkBoxMuti_5">
      <property name="geometry">
       <rect>
        <x>9</x>
@@ -914,7 +914,7 @@
       <string>3</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBoxMuti_19">
+    <widget class="QCheckBox" name="checkBoxMuti_3">
      <property name="geometry">
       <rect>
        <x>9</x>
@@ -953,7 +953,7 @@
       <string>8</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBoxMuti_20">
+    <widget class="QCheckBox" name="checkBoxMuti_10">
      <property name="geometry">
       <rect>
        <x>9</x>
@@ -1122,9 +1122,315 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>checkBoxPeriodicSend</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_checkBoxPeriodicSend_stateChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>599</x>
+     <y>407</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>712</x>
+     <y>402</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonClearRev_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonClearRev_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>332</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>167</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonClearSend_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonClearSend_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>110</x>
+     <y>500</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>163</x>
+     <y>507</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRdFile_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonRdFile_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>117</x>
+     <y>479</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>139</x>
+     <y>413</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonSaveRev_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonSaveRev_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>100</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>166</x>
+     <y>293</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_radioButton_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>497</x>
+     <y>409</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>472</x>
+     <y>406</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMuti1_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonMuti_1_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>696</x>
+     <y>91</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>718</x>
+     <y>90</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMutiReset_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonMutiReset_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>549</x>
+     <y>379</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>514</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMuti2_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonMuti_2_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>700</x>
+     <y>124</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>722</x>
+     <y>122</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMuti3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonMuti_3_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>698</x>
+     <y>148</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>719</x>
+     <y>153</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMuti4_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonMuti_4_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>690</x>
+     <y>171</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>718</x>
+     <y>180</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMuti5_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonMuti_5_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>693</x>
+     <y>199</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>720</x>
+     <y>207</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMuti6_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonMuti_6_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>690</x>
+     <y>234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>723</x>
+     <y>240</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMuti7_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonMuti_7_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>695</x>
+     <y>253</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>725</x>
+     <y>268</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMuti8_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonMuti_8_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>696</x>
+     <y>289</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>728</x>
+     <y>297</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMuti9_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonMuti_9_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>314</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>724</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMuti10_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_pushButtonMuti_10_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>697</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>722</x>
+     <y>363</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBoxPeriodicMutiSend_2</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>MyCOMClass</receiver>
+   <slot>on_checkBoxMuti_stateChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>647</x>
+     <y>373</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>727</x>
+     <y>389</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>on_pushButtonOpen_clicked()</slot>
   <slot>on_pushButtonSend_clicked()</slot>
+  <slot>on_checkBoxPeriodicSend_stateChanged(int)</slot>
+  <slot>on_pushButtonClearRev_clicked()</slot>
+  <slot>on_pushButtonClearSend_clicked()</slot>
+  <slot>on_pushButtonRdFile_clicked()</slot>
+  <slot>on_pushButtonSaveRev_clicked()</slot>
+  <slot>on_radioButton_clicked()</slot>
+  <slot>on_pushButtonMuti_1_clicked()</slot>
+  <slot>on_pushButtonMutiReset_clicked()</slot>
+  <slot>on_pushButtonMuti_2_clicked()</slot>
+  <slot>on_pushButtonMuti_3_clicked()</slot>
+  <slot>on_pushButtonMuti_4_clicked()</slot>
+  <slot>on_pushButtonMuti_5_clicked()</slot>
+  <slot>on_pushButtonMuti_6_clicked()</slot>
+  <slot>on_pushButtonMuti_7_clicked()</slot>
+  <slot>on_pushButtonMuti_8_clicked()</slot>
+  <slot>on_pushButtonMuti_9_clicked()</slot>
+  <slot>on_pushButtonMuti_10_clicked()</slot>
+  <slot>on_checkBoxMuti_stateChanged(int)</slot>
  </slots>
 </ui>
