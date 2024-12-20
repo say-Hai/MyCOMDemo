@@ -45,6 +45,7 @@ private slots:
 	void on_pushButtonMuti_clicked(int lineEditIndex);
 	void on_pushButtonMutiReset_clicked();//清除多行文本
 	void on_checkBoxMuti_stateChanged(int);
+	void Pre_on_pushButtonSend_clicked();
 private:
 	Ui::MyCOMClass ui;
 
@@ -64,6 +65,7 @@ private:
 	// 使用QList存储所有复选框的指针
 	QList<QCheckBox*> checkBoxes;
 
+	int LastSend = 0;//多行循环发送起始位置
 	void setNumOnLabel(QLabel* lbl, QString strS, long num);
 	QString byteArrayToUnicode(const QByteArray& array);
 	bool openTextByIODevice(const QString& chars);

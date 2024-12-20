@@ -203,7 +203,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>打开串口</string>
+      <string> 打开串口 </string>
      </property>
     </widget>
     <widget class="QLabel" name="labelBaud_2">
@@ -305,7 +305,7 @@
       </property>
      </item>
     </widget>
-    <widget class="QComboBox" name="comboBoxNo_2">
+    <widget class="mycombobox" name="comboBoxNo_2">
      <property name="geometry">
       <rect>
        <x>8</x>
@@ -1086,6 +1086,13 @@
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>mycombobox</class>
+   <extends>QComboBox</extends>
+   <header>mycombobox.h</header>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="MyCOM.qrc"/>
  </resources>
